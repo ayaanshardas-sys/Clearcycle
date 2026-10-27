@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home — ClearCycle</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <div class="wrap bar">
+    <a class="brand" href="index.html">ClearCycle</a>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="items.html">Items</a></li>
+        <li><a href="droppoints.html">Drop Points</a></li>
+        <li><a href="benefits.html">Benefits</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+  <h1>Don't throw it away. Dispose of it right.</h1>
+  <p class="lede">Type what you are holding and we will tell you if it is
+     e-waste and what to do with it.</p>
+
+  <label class="search-label" for="home-search">Search for an item</label>
+  <input class="search-box" type="search" id="home-search"
+         placeholder="charger, bulb, old phone...">
+  <p><a class="btn" href="items.html" id="go">Search</a></p>
+
+  <section class="panel">
+    <h2>Next society collection</h2>
+    <p class="collection-date" id="collection-date">Loading...</p>
+    <p>Bring small items down on the day. No need to book anything.</p>
+  </section>
+
+  <h2>Popular items</h2>
+  <ul class="quick">
+    <li><a href="items.html?q=phone"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2"/><line x1="10" y1="18.5" x2="14" y2="18.5"/></svg>Phone</a></li>
+    <li><a href="items.html?q=charger"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 2v6M15 2v6"/><rect x="7" y="8" width="10" height="6" rx="2"/><path d="M12 14v4a3 3 0 0 0 3 3h3"/></svg>Charger</a></li>
+    <li><a href="items.html?q=battery"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="8" width="16" height="9" rx="2"/><line x1="21" y1="11" x2="21" y2="14"/><line x1="7" y1="12.5" x2="13" y2="12.5"/></svg>Battery</a></li>
+    <li><a href="items.html?q=bulb"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 17a6 6 0 1 1 6 0v2H9z"/><line x1="10" y1="22" x2="14" y2="22"/></svg>Bulb</a></li>
+    <li><a href="items.html?q=laptop"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="11" rx="1"/><line x1="2" y1="19" x2="22" y2="19"/></svg>Laptop</a></li>
+    <li><a href="items.html"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>See all items</a></li>
+  </ul>
+</main>
+<footer>
+  <div class="wrap">
+    <p>ClearCycle is a student project for the residents of my housing society.
+       It asks for no personal information and stores nothing about you.</p>
+    <p class="updated"></p>
+  </div>
+</footer>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
